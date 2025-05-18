@@ -13,6 +13,10 @@ h1 {
   margin: 1%;
 }
 
+img {
+  width: 60%
+}
+
 / * FONT STYLES * /
 .jersey-15-regular {
   font-family: "Jersey 15", sans-serif;
