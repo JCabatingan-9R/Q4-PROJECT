@@ -31,6 +31,10 @@ h1 {
   margin: 1%;
 }
 
+.search {
+  margin-right: 1%;
+}
+
 /* Cards */
 .card {
   background-color: #ffffff;
