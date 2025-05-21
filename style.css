@@ -10,6 +10,10 @@ h1 {
   margin-bottom: 30px;
 }
 
+.proj {
+  width:50%;
+}
+
 /* Cards */
 .card {
   background-color: #ffffff;
