@@ -10,8 +10,22 @@ h1 {
   margin-bottom: 30px;
 }
 
-.proj {
-  width:50%;
+.projco {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease; margin: 4%;
+  border: 10px solid
+  padding: 10px
+}
+
+.projco:hover {
+  transform: scale(1.02)
+}
+
+.projects {
+  width:80%;
+  margin: 1%;
 }
 
 /* Cards */
