@@ -1,68 +1,65 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-	  <meta name="viewport" content="width=device-width, initial-scale=1">
-	  <title>4Q Project</title>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>4Q Project</title>
 
-  	<!-- SETUP BOOTSTAP: link to Bootstrap -->
-  	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom Style -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <div class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <div class="navbar-fluid d-flex flex-wrap w-100 px-3">
+      <ul class="navbar-nav nav-pills me-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">About Us</a></li>
+        <li class="nav-item"><a class="nav-link" href="page2.html">Quarter 1</a></li>
+        <li class="nav-item"><a class="nav-link" href="page2.html">Quarter 2</a></li>
+        <li class="nav-item"><a class="nav-link" href="page2.html">Quarter 3</a></li>
+        <li class="nav-item"><a class="nav-link" href="page2.html">Quarter 4</a></li>
+        <li class="nav-item"><a class="nav-link active" href="page6.html">What's Next</a></li>
+        <li class="nav-item"><a class="nav-link" href="page7.html">Rate Us</a></li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" />
+        <button class="btn btn-light" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
 
-  	<!-- link to JS -->
-	  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-
-	  <!-- Add style -->
-  	<link rel="stylesheet" type="text/css" href="style.css">
-  </head>
-  <body>
-	   <!-- navbar -->
-	<div class="navbar navbar-expand-sm bg-dark navbar-dark">
-		<div class="navbar-fluid">
-			
-			<ul class="navbar-nav nav-pills">
-				<li class="nav-item">
-					<a class="nav-link" href="index.html">About Us</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="page2.html">Quarter 1</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="page2.html">Quarter 2</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="page2.html">Quarter 3</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="page2.html">Quarter 4</a>
-				</li>
-				<li class="nav-item active">
-					<a class="nav-link" href="page6.html">What's Next</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="page7.html">Rate Us</a>
-				</li>
-				<br>
-				<li class="justify-content-end">
-					<form class="d-flex">
-						<input class="form-control me-2" type="text" placeholder="Search">
-					<button class="btn btn-light" type="button">Search</button>
-					</form>
-				</li>
-			</ul>	
-		</div>
-	</div>
+  <!-- Page Title -->
+  <div class="container text-center mt-5">
     <h1>What's Next?</h1>
-    <div class="row">
-			<div class="col">
-				<h3>Our Expectations</h3>
-				<p>As we dive into ICT 10, we aim to on the fundimental skills that we have learned. We want to explore real-wolrd applications, develop creative and enhanced digital projects, and strengthen our coding and design abilities. We're excited about the challenges and discoveries that we face ahead!</p>
-			</div>
-			<div class="col">
-				<h3>Our Personal Goals:</h3>
-				<p><strong>Nickel:</strong> Able to do game creating</p>
-				<p><strong>Jade:</strong> Able to make study notes sites</p>
-				<p><strong>Frances:</strong>Able to create a penguin Website</p>
-				<p><strong>David:</strong> Able to make money off sites (Be able to hack maybe)</p>
-			</div>
-		</div>
-  </body>
+  </div>
+
+  <!-- Content Sections -->
+  <div class="container mt-4">
+    <div class="row justify-content-center">
+      <div class="col-md-5 mb-4">
+        <div class="custom-box">
+          <h3>Our Expectations</h3>
+          <p>
+            As we dive into ICT 10, we aim to build on the fundamental skills we've learned.
+            We want to explore real-world applications, create more advanced and creative digital projects, and strengthen both our coding and design abilities.
+            We're excited about the challenges and discoveries that lie ahead!
+          </p>
+        </div>
+      </div>
+      <div class="col-md-5 mb-4">
+        <div class="custom-box">
+          <h3>Our Personal Goals</h3>
+          <p><strong>Nickel:</strong> Learn how to create games</p>
+          <p><strong>Jade:</strong> Build a website for study notes</p>
+          <p><strong>Frances:</strong> Design a fun penguin-themed website</p>
+          <p><strong>David:</strong> Learn how to earn money from websites (and maybe explore ethical hacking)</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
