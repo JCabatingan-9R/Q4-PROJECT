@@ -85,3 +85,21 @@ details p {
   padding: 20px;
   border-top: 3px solid #222;
 }
+
+form label {
+  font-weight: 600;
+}
+
+textarea::placeholder,
+input::placeholder {
+  color: #999;
+}
+
+input[type="radio"] {
+  margin-right: 4px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
