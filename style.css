@@ -78,6 +78,27 @@ details p {
   margin-top: 10px;
 }
 
+/* For Rate Us Page*/
+form label {
+  font-weight: 600;
+}
+
+textarea::placeholder,
+input::placeholder {
+  color: #999;
+}
+
+input[type="radio"] {
+  margin-right: 4px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+
+
 /* Footer */
 .footer {
   background-color: #343a40;
