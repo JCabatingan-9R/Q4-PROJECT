@@ -11,12 +11,6 @@ a {
   color: black;
 }
 
-/* Header */
-h1 {
-  font-size: 2.5rem;
-  margin-bottom: 30px;
-}
-
 nav {
   padding: 15px;
 }
@@ -95,6 +89,7 @@ input[type="radio"] {
 h1 {
   font-size: 2.5rem;
   font-weight: bold;
+  margin-top: 1%;
 }
 
 .transparent-container {
@@ -104,8 +99,6 @@ h1 {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   margin: 20px 0;
 }
-
-
 
 /* Footer */
 .footer {
