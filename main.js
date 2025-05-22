@@ -6,3 +6,8 @@ function ratingSubmit() {
   else {
     window.alert('Oops! Looks like you forgot to rate our site!');
   }
+}
+
+function searchButton() {
+  window.alert('Sorry, this button currently does not work.');
+}
