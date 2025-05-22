@@ -103,8 +103,20 @@ h1 {
 
 /* Footer */
 .footer {
-  background-color: #343a40;
-  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.2); 
+  backdrop-filter: blur(10px);
+  text-align: center;
   padding: 20px;
-  border-top: 3px solid #222;
+  font-size: 1em;
+  font-weight: 500;
+  color: #222;
+}
+
+.footer a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
 }
