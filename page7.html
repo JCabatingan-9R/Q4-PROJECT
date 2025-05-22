@@ -58,27 +58,27 @@
       <div class="col-sm-4">
         <h3>Kindly give us your feedback on our 4Q Project!</h3>
 		<div class="container">
-	      		<form>
+	      		<form id="ratings">
 				<p>Rate Your Experience</p>
 				<div class="row">
 					<div class="col">
-						<input type="radio" id="rateOne" name="rating">
+						<input type="radio" id="rateOne" name="rating" value="one">
 						<label for="rateOne">1</label>
 					</div>
 					<div class="col">
-						<input type="radio" id="rateTwo" name="rating">
+						<input type="radio" id="rateTwo" name="rating" value="two">
 						<label for="rateTwo">2</label>
 					</div>
 					<div class="col">
-						<input type="radio" id="rateThree" name="rating">
+						<input type="radio" id="rateThree" name="rating" value="three">
 						<label for="rateThree">3</label>
 					</div>
 					<div class="col">
-						<input type="radio" id="rateFour" name="rating">
+						<input type="radio" id="rateFour" name="rating" value="four">
 						<label for="rateFour">4</label>
 					</div>
 					<div class="col">
-						<input type="radio" id="rateFive" name="rating">
+						<input type="radio" id="rateFive" name="rating" value="five">
 						<label for="rateFive">5</label>
 					</div>
 				</div>
@@ -100,8 +100,8 @@
           <label for="emailID">Email</label>
           <input type="email" id="emailID" placeholder="..." class="form-control">
           <textarea rows="5" cols="100" placeholder="Please add feedback here..."></textarea>
-          <button type="button" class="btn btn-dark form-control">Submit Rating</button>
         </form>
       </div>
     </div>
+	<button type="button" class="btn btn-dark form-control" onclick="ratingSubmit()" onmouseover="buttonChange()" onmouseout="buttonReset()">Submit Rating</button>
   </body>
