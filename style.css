@@ -105,4 +105,9 @@ h1 {
 }
 
 /* Footer */
-
+.footer {
+  background-color: #343a40;
+  color: white;
+  padding: 20px;
+  border-top: 3px solid #222;
+}
