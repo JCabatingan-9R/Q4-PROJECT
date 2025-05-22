@@ -1,11 +1,8 @@
 function ratingSubmit() {
   var rate = document.getElementById('ratings').value;
-  if (rate = 'one') {
+  if (rate = 1) {
     window.alert('Thanks for rating...we will get back to you soon. Sorry for the inconvenience >o<');
   }
-
-function buttonChange() {
-}
-  
-function buttonReset() {
-}
+  else {
+    window.alert('Oops! Looks like you forgot to rate our site!');
+  }
