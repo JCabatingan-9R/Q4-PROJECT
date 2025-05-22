@@ -1,6 +1,6 @@
 function ratingSubmit() {
   var rate = document.getElementById('ratings').value;
-  var name = document.getElementById('nameID').value;
+  var name = document.getElementById('fnameID').value;
   if (rate = "1") {
     window.alert('Thanks for rating, ' + name + '...Sorry for the inconvenience >o<');
   }
