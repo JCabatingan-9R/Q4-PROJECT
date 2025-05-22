@@ -78,45 +78,6 @@ details p {
   margin-top: 10px;
 }
 
-.rating-row div {
-  text-align: center;
-  width: 100%;
-}
-
-.rating-row input[type="radio"] {
-  margin-right: 5px;
-}
-
-.rating-row label {
-  font-weight: 500;
-  font-size: 1.1rem;
-}
-
-form label {
-  font-weight: 600;
-}
-
-form textarea {
-  padding: 10px;
-  border-radius: 6px;
-  border: 1px solid #ccc;
-  resize: vertical;
-}
-
-form input.form-control {
-  margin-bottom: 10px;
-}
-
-h3 {
-  font-size: 1.4rem;
-  font-weight: 600;
-}
-
-.btn-dark {
-  padding: 10px;
-  font-size: 1rem;
-}
-
 /* Footer */
 .footer {
   background-color: #343a40;
