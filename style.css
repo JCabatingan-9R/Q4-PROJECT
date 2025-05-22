@@ -104,6 +104,10 @@ h1 {
   margin: 20px 0;
 }
 
+.ratstar input {
+  display:none;
+}
+
 /* Footer */
 .footer {
   background-color: #343a40;
