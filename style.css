@@ -1,4 +1,4 @@
-/* General */
+/* General by ANDOY */
 body {
   font-family: Roboto Condensed;
   background-color: #fdfcfa;
@@ -43,7 +43,7 @@ nav {
   margin: 1%;
 }
 
-/* Cards */
+/* Cards by ANDOY */
 .card {
   background-color: #ffffff;
   border-radius: 20px;
@@ -60,7 +60,7 @@ nav {
   transform: translateY(-5px);;
 }
 
-/* Circular Images */
+/* Circular Images by ANDOY */
 .card img {
   width: 200px;
   height: 200px;
@@ -70,7 +70,7 @@ nav {
   margin: 10px auto;
 }
 
-/* Details Element */
+/* Details Element by ANDOY */
 details summary {
   font-size: 1.3rem;
   font-weight: bold;
@@ -114,7 +114,7 @@ h1 {
   margin: 20px 0;
 }
 
-/* Footer */
+/* Footer by ANDOY and CABATINGAN */
 .footer {
    background-color: #343a40;
   color: white;
