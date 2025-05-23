@@ -3,7 +3,7 @@ function searchButton() {
 }
 
 function ratingSubmit() {
-        var name = document.getElementById('lnameID').value;
+        var name = document.getElementById('fnameID').value;
         var info = Number(document.getElementById('infoID').value);
         var proje = Number(document.getElementById('projID').value);
         var feed = Number(document.getElementById('feedID').value);
