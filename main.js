@@ -5,7 +5,7 @@ function searchButton() {
 }
 
 function ratingSubmit() {
-        var name = document.getElementById('fnameID').value; //
+        var name = document.getElementById('fnameID').value; // to address viewer
         var info = Number(document.getElementById('infoID').value); //value of profile information rating
         var proje = Number(document.getElementById('projID').value); // value of quarter project rating
         var feed = Number(document.getElementById('feedID').value); // value of form rating
