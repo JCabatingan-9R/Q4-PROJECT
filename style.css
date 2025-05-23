@@ -1,11 +1,17 @@
 /* General by ANDOY */
 body {
-  font-family: Roboto Condensed;
+  font-family: 'Roboto Condensed', sans-serif;
   background-color: #fdfcfa;
+  background-image: url('https://static.vecteezy.com/system/resources/thumbnails/008/800/866/small_2x/global-connection-and-the-internet-network-modernization-in-smart-city-ai-cloud-internet-background-free-video.jpg');
+  background-size: cover;       
+  background-repeat: no-repeat; 
+  background-attachment: fixed; /
+  background-position: center;  
   color: #333;
   text-align: center;
   justify-content: center;
 }
+
 
 nav {
   padding: 15px;
