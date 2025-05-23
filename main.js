@@ -1,8 +1,11 @@
 function ratingSubmit() {
+  var name = document.getElementById('nameID').value;
+  
   var infoRate = document.getElementById('infoID').value;
   var projRate = document.getElementById('projID').value;
   var feedRate = document.getElementById('feedID').value;
   var aveRate = Math.round((infoRate + projRate + feedRate) / 3);
+  
   if (aveRate <= 1) {
     window.alert('Thanks for rating, ' + name + '...Sorry for the inconvenience >o<');
   }
