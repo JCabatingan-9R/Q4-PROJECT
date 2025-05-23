@@ -7,22 +7,22 @@ function ratingSubmit() {
   var aveRate = Math.round((infoRate + projRate + feedRate) / 3);
   
   if (aveRate <= 1) {
-    window.alert('Thanks for rating, ' + name + '...Sorry for the inconvenience >o<');
+    window.alert('Thanks, ' + name + '!' + aveRate '...Sorry for the inconvenience >o<');
   }
   else if (aveRate >= 2 && aveRate < 3) {
-    window.alert('Thanks for rating, ' + name + '...At least it is not a one >o<');
+    window.alert('Thanks ' + name + '!' + aveRate+ '...At least it is not a one >o<');
   }
 
  else if (aveRate >= 3 && aveRate < 4) {
-    window.alert('Thanks for rating, ' + name + '...Lucky in the middle! >o<');
+    window.alert('Thanks, ' + name + '!' + aveRate + '...Lucky in the middle! >o<');
   }
 
  else if (aveRate >= 4 && aveRate < 5) {
-    window.alert('Thanks for rating, ' + name + '...Nearly perfect >o<');
+    window.alert('Wow, ' + name + '!' + aveRate + '...Nearly perfect >o<');
   }
 
  else if (aveRate = 5) {
-    window.alert('Thanks for rating, ' + name + '...We will remember you >o<');
+    window.alert('Wow, ' + name + '!' + aveRate + '...We will remember you >o<');
   }
 
   else {
