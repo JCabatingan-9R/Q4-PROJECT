@@ -1,13 +1,15 @@
 /* General */
 body {
   font-family: Roboto Condensed;
-  background-color: #f8f9fa;
+  background-color: #fdfcfa;
+  color: #333;
   text-align: center;
   justify-content: center;
 }
 
 nav {
   padding: 15px;
+  background-color: #6c63ff;
 }
 
 .search {
@@ -37,9 +39,9 @@ nav {
 /* Cards */
 .card {
   background-color: #ffffff;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s ease;
+  border-radius: 20px;
+ box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
   width: 90%;
   height: 100%;
   padding: 20px;
@@ -48,7 +50,7 @@ nav {
 }
 
 .card:hover {
-  transform: scale(1.02);
+  transform: translateY(-5px);;
 }
 
 /* Circular Images */
@@ -63,13 +65,16 @@ nav {
 
 /* Details Element */
 details summary {
+  font-size: 1.3rem;
   font-weight: bold;
-  font-size: 1.25rem;
+  color: #4a4a4a;
   cursor: pointer;
+  margin-bottom: 10px;
 }
 
 details p {
-  margin-top: 10px;
+  font-size: 1rem;
+  color: #616161;
 }
 
 /* For Rate Us Page*/
@@ -90,6 +95,8 @@ h1 {
   font-size: 2.5rem;
   font-weight: bold;
   margin-top: 1%;
+  color: #37474f;
+  margin-top: 30px;
 }
 
 .transparent-container {
@@ -102,13 +109,15 @@ h1 {
 
 /* Footer */
 .footer {
-  background-color: #343a40;
-  color: white;
+  background-color: #6c63ff;
+  color: #fffde7;
   padding: 20px;
   border-top: 3px solid #222;
+  margin-top: 40px;
   left: 0;
   bottom: 0;
   width: 100%;
+  font-size: 0.9rem;
 }
 
 .refer {
