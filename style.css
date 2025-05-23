@@ -109,15 +109,16 @@ h1 {
 
 /* Footer */
 .footer {
-  background-color: grey;
-  color: #fffde7;
-  padding: 20px;
+  background-color: #343a40;
+  color: white;
+  padding: 20px 15px;
   border-top: 3px solid #222;
   margin-top: 40px;
-  left: 0;
-  bottom: 0;
   width: 100%;
   font-size: 0.9rem;
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  box-shadow: 0 -3px 10px rgba(0, 0, 0, 0.1);
 }
 
 .refer {
