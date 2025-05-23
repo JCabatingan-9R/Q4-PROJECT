@@ -31,5 +31,5 @@ function ratingSubmit() {
 }
 
 function searchButton() {
-  window.alert('Sorry, this button currently does not work.');
+  window.alert('Sorry, this currently does not work.');
 }
