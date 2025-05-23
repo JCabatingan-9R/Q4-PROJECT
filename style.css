@@ -6,11 +6,6 @@ body {
   justify-content: center;
 }
 
-a {
-  text-decoration: none;
-  color: black;
-}
-
 nav {
   padding: 15px;
 }
