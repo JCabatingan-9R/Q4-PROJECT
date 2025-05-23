@@ -111,3 +111,12 @@ h1 {
   padding: 20px;
   border-top: 3px solid #222;
 }
+
+.refer {
+  text-decoration: none;
+}
+
+.refer:hover {
+  color: grey;
+  transform: scale(1.02);
+}
